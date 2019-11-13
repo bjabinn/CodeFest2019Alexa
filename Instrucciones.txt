@@ -1,0 +1,6 @@
+https://codefesttwitterapi.azurewebsites.net/swagger/index.html
+
+sudo spctl --master-disable
+
+./ngrok http -bind-tls=true -host-header=rewrite 7071
+
